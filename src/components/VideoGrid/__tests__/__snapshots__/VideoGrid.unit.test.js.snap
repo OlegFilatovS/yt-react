@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VideoGrid renders empty VideoGrid 1`] = `
+<Fragment>
+  <VideoGridHeader
+    title="Trending"
+  />
+  <div
+    className="video-grid"
+  >
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+  </div>
+  <Divider />
+</Fragment>
+`;
+
+exports[`renders VideoGrid with title  1`] = `
+<Fragment>
+  <VideoGridHeader
+    title="Trending"
+  />
+  <div
+    className="video-grid"
+  >
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+  </div>
+  <Divider />
+</Fragment>
+`;
+
+exports[`renders VideoGrid without devider  1`] = `
+<Fragment>
+  <VideoGridHeader
+    title="Trending"
+  />
+  <div
+    className="video-grid"
+  >
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+  </div>
+</Fragment>
+`;
